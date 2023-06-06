@@ -1,42 +1,20 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.section`
-    margin: 56px 0px 28px;
+  > h2 {
+    font-size: 2rem;
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    margin-bottom: 2.4rem;
+  }
 
-    .title {
-        display: flex;
-        align-items: center;
-        gap: 10px;
+  > div {
+    background-color: ${({ theme }) => theme.COLORS.DARK};
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    width: 100%;
 
-        >img {
-            height: 20px;
-            width: 130px;
-        }
-
-        >h2 {
-        font-size: 36px;
-        line-height: 47px;
-        font-weight: 500;
-        color: ${({ theme }) => theme.COLORS.WHITE};
-    }
-    }
-    .time {
-        margin: 15px 0px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        >img {
-            height: 20px;
-            width: 20px;
-            border-radius: 50%;
-        }
-        >div {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        svg {
-            color: ${({ theme }) => theme.COLORS.PINK}
-        }
-    }
-`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+  }
+`;

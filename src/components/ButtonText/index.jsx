@@ -1,14 +1,10 @@
-import { Container } from './styles'
-import { BiArrowBack } from 'react-icons/bi'
+import { Container } from './styles';
 
-export function ButtonText({title, ...rest }){
-    return(
-        <Container 
-        type='button'
-        {...rest} 
-        >
-        <BiArrowBack/>
-            {title}
-        </Container>
-    );
+export function ButtonText({ icon: Icon, text, ...rest }) {
+  return (
+    <Container {...rest}>
+      {Icon && <Icon />}
+      {text}
+    </Container>
+  );
 }

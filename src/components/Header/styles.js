@@ -17,6 +17,7 @@ export const Profile = styled.div`
     gap: 64px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
     h1 {
          color: ${({ theme }) => theme.COLORS.PINK};
@@ -33,7 +34,6 @@ export const Profile = styled.div`
     .profile {
         display: flex;
         flex-direction: row-reverse;
-        margin-left: 9px;
         line-height: 18px;
         align-items: center;
         gap: 10px;
@@ -56,8 +56,8 @@ export const Profile = styled.div`
         .dates {
             display: flex;
             flex-direction: column;
-            align-items:end;
-            width: 100px;
+            width: 150px;
+            align-items: end;
         }
 
     }

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.div`
     width: 100%;
@@ -24,6 +24,15 @@ export const Container = styled.div`
                 margin-top: 2px;
                 font-size: 18px;
             }
+        }
+
+        button {
+            display: flex;
+            gap: 2px;
+            font-size: 15px;
+            background: none;
+            border: none;
+            color: ${({ theme }) => theme.COLORS.PINK}
         }
     }
 `

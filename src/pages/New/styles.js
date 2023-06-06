@@ -30,25 +30,26 @@ export const Form = styled.form`
     max-width: 1137px;
     margin: 40px auto;
 
-    > header {
-        a {
-            color: ${({ theme }) => theme.COLORS.PINK };
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 16px;
-            line-height: 21px;
-            margin-bottom: 24px;
-        }
-
-        h1 {
-            color: ${({ theme }) => theme.COLORS.WHITE };
-            font-size: 36px;
-            line-height: 47px;
-            margin-bottom: 40px;
-        }
+    h1 {
+        
+      color: ${({ theme }) => theme.COLORS.WHITE };
+      font-size: 36px;
+      line-height: 47px;
+      margin-bottom: 40px;
     }
-
+    
+    > header {
+      a {
+        color: ${({ theme }) => theme.COLORS.PINK };
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 24px;
+    }
+    }
+    
     > div:nth-child(1) {
         display: flex;
         gap: 40px;

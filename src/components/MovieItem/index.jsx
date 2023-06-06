@@ -2,7 +2,7 @@ import { FiPlus, FiX } from 'react-icons/fi'
 
 import { Container } from './styles'
 
-export function MovieItem({isNew, value, onClick, ...rest}){
+export function MovieItem({isNew = false, value, onClick, ...rest}){
     return(
         <Container isNew={isNew}>
             <input

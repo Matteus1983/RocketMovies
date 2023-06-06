@@ -1,9 +1,9 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 
-import { New } from '../pages/New'
-import { Home } from '../pages/Home'
-import { Details } from '../pages/Details'
-import { Profile } from '../pages/Profile'
+import { New } from '../pages/New';
+import { Home } from '../pages/Home';
+import { Profile } from '../pages/Profile';
+import { Details } from '../pages/Details';
 
 export function AppRoutes(){
     return(
@@ -15,3 +15,5 @@ export function AppRoutes(){
         </Routes>
     )
 }
+// Routes vai envolver todas as rotas
+// Para cada route eu digo qual o endereço '/' e qual elemento renderizar(exibir) 'Home'.
