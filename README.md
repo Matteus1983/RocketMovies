@@ -6,8 +6,5 @@ Aprendi a usar diversos frameworks e libs diferentes, que agregaram muito para o
 - ReactJs
 - Vite
 - Styled Components
-- React Icons
-- React Dom
-- React Router Dom
 
-https://github.com/Matteus1983/RocketMovies/assets/108637829/f29b3ac9-adc3-4cdf-925d-0f9ea41763d4
+https://github.com/Matteus1983/RocketMovies-FrontEnd/assets/108637829/56fc8276-b840-4cd3-8e19-93985fde4a7a
